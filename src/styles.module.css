@@ -1,9 +1,67 @@
 /* add css module styles here (optional) */
 
+div{
+  display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
 .test {
   margin: 2em;
   padding: 0.5em;
-  border: 2px solid #000;
+  border: 2px solid rgb(223, 14, 14);
   font-size: 2em;
   text-align: center;
+}
+.primary {
+  width: 180px !important;
+  height: 60px  !important;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+  font-size: larger;
+  margin-right: 5px;
+}
+
+
+.primary:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+.warning {
+  width: 180px !important;
+  height: 60px  !important;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #fa0707;
+  outline: none;
+  transition: 1s ease-in-out;
+  font-size: larger;
+  margin-right: 5px;
+}
+
+
+.warning:hover {
+  transition: 1s ease-in-out;
+  background: #da4f4f;
+}
+
+.success {
+  width: 180px !important;
+  height: 60px  !important;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #0f9b16;
+  outline: none;
+  transition: 1s ease-in-out;
+  font-size: larger;
+  margin-right: 5px;
+}
+
+
+.success:hover {
+  transition: 1s ease-in-out;
+  background: #3dbe4c;
 }
